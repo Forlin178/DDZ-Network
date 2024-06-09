@@ -1,0 +1,166 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "crypto/libmycrypto.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"crypto/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "  -std=c++17 -g"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/forlin/project/ddz-net/common"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/forlin/project/ddz-net/http"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/forlin/project/ddz-net/reactor"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/forlin/project/ddz-net/tcp"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/forlin/project/ddz-net/thread"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/forlin/project/ddz-net/serialize"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/forlin/project/ddz-net/crypto"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/forlin/project/ddz-net/game"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/forlin/project/ddz-net/database"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/usr/include/mysql"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"id" : "mycrypto::@1d62b725e69adc70ad4a",
+	"name" : "mycrypto",
+	"nameOnDisk" : "libmycrypto.a",
+	"paths" : 
+	{
+		"build" : "crypto",
+		"source" : "crypto"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto/AesCrypto.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto/Base64.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto/Hash.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crypto/RsaCrypto.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

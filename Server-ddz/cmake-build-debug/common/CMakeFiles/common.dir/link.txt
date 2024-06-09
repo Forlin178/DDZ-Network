@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libcommon.a CMakeFiles/common.dir/Buffer.cpp.obj CMakeFiles/common.dir/Channel.cpp.obj CMakeFiles/common.dir/JsonParse.cpp.obj
+C:\mingw64\bin\ranlib.exe libcommon.a

@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libserialize.a CMakeFiles/serialize.dir/Codec.cpp.obj CMakeFiles/serialize.dir/information.pb.cc.obj
+C:\mingw64\bin\ranlib.exe libserialize.a

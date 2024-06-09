@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libreactor.a CMakeFiles/reactor.dir/Dispatcher.cpp.obj CMakeFiles/reactor.dir/EpollDispatcher.cpp.obj CMakeFiles/reactor.dir/EventLoop.cpp.obj CMakeFiles/reactor.dir/PollDispatcher.cpp.obj CMakeFiles/reactor.dir/SelectDispatcher.cpp.obj
+C:\mingw64\bin\ranlib.exe libreactor.a

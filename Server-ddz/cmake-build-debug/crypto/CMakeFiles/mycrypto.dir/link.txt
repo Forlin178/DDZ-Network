@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libmycrypto.a CMakeFiles/mycrypto.dir/AesCrypto.cpp.obj CMakeFiles/mycrypto.dir/Base64.cpp.obj CMakeFiles/mycrypto.dir/Hash.cpp.obj CMakeFiles/mycrypto.dir/RsaCrypto.cpp.obj
+C:\mingw64\bin\ranlib.exe libmycrypto.a

@@ -1,0 +1,13 @@
+{
+  "mysql": {
+    "ip": "127.0.0.1",
+    "port": 3306,
+    "user": "root",
+    "password": "linyipeng",
+    "dbname": "happy-ddz"
+  },
+  "redis": {
+    "ip": "127.0.0.1",
+    "port": 6379
+  }
+}

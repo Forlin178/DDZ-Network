@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Server_ddz"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\common\;CMake Files\http\;CMake Files\reactor\;CMake Files\tcp\;CMake Files\thread\;CMake Files\serialize\;CMake Files\crypto\;CMake Files\game\;CMake Files\database\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Server_ddz">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/bin/Server_ddz.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server_ddz"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Server_ddz/fast">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/bin/Server_ddz.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 Server_ddz/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/common/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 common"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="common/fast">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/common/libcommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 common/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/http/libhttp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/http"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 http"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http/fast">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/http/libhttp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/http"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 http/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/http/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reactor">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/reactor/libreactor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/reactor"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/reactor/Makefile&quot;  VERBOSE=1 reactor"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/reactor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/reactor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/reactor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reactor/fast">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/reactor/libreactor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/reactor"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/reactor/Makefile&quot;  VERBOSE=1 reactor/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/reactor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/reactor/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/reactor/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/tcp/libtcp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/tcp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/tcp/Makefile&quot;  VERBOSE=1 tcp"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp/fast">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/tcp/libtcp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/tcp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/tcp/Makefile&quot;  VERBOSE=1 tcp/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/thread/libthread.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/thread"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 thread"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread/fast">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/thread/libthread.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/thread"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 thread/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serialize">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/serialize/libserialize.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/serialize"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/serialize/Makefile&quot;  VERBOSE=1 serialize"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/serialize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serialize/fast">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/serialize/libserialize.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/serialize"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/serialize/Makefile&quot;  VERBOSE=1 serialize/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/serialize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mycrypto">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/crypto/libmycrypto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/crypto"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 mycrypto"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mycrypto/fast">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/crypto/libmycrypto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/crypto"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 mycrypto/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/game/libgame.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/game"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/hiredis"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/game/Makefile&quot;  VERBOSE=1 game"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="game/fast">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/game/libgame.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/game"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/include/hiredis"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/game/Makefile&quot;  VERBOSE=1 game/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/game/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/game/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/game/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="database">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/database/libdatabase.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/database"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/database/Makefile&quot;  VERBOSE=1 database"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/database/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/database/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/database/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="database/fast">
+				<Option output="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/database/libdatabase.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/database"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/common"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/http"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/reactor"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/tcp"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/thread"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/serialize"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/crypto"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/game"/>
+					<Add directory="D:/CLionProject/DDZ-Network/Server-ddz/database"/>
+					<Add directory="/usr/include/mysql"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/database/Makefile&quot;  VERBOSE=1 database/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/database/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/database/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProject/DDZ-Network/Server-ddz/cmake-build-debug/database/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/common/Buffer.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/common/Buffer.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/common/Channel.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/common/Channel.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/common/JsonParse.cpp">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/common/JsonParse.h">
+			<Option target="common"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/crypto/AesCrypto.cpp">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/crypto/AesCrypto.h">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/crypto/Base64.cpp">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/crypto/Base64.h">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/crypto/Hash.cpp">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/crypto/Hash.h">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/crypto/RsaCrypto.cpp">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/crypto/RsaCrypto.h">
+			<Option target="mycrypto"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/database/MysqlConn.cpp">
+			<Option target="database"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/database/MysqlConn.h">
+			<Option target="database"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/game/Communication.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/game/Communication.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/game/Room.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/game/Room.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/game/RoomList.cpp">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/game/RoomList.h">
+			<Option target="game"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/http/HttpRequest.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/http/HttpRequest.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/http/HttpResponse.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/http/HttpResponse.h">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/main.cpp">
+			<Option target="Server_ddz"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/reactor/Dispatcher.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/reactor/Dispatcher.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/reactor/EpollDispatcher.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/reactor/EpollDispatcher.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/reactor/EventLoop.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/reactor/EventLoop.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/reactor/PollDispatcher.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/reactor/PollDispatcher.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/reactor/SelectDispatcher.cpp">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/reactor/SelectDispatcher.h">
+			<Option target="reactor"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/serialize/Codec.cpp">
+			<Option target="serialize"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/serialize/Codec.h">
+			<Option target="serialize"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/serialize/information.pb.cc">
+			<Option target="serialize"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/tcp/TcpConnection.cpp">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/tcp/TcpConnection.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/tcp/TcpServer.cpp">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/tcp/TcpServer.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/thread/ThreadPool.cpp">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/thread/ThreadPool.h">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/thread/WorkerThread.cpp">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/thread/WorkerThread.h">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\common\"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/http/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\http\"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/reactor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\reactor\"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/tcp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tcp\"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/thread/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thread\"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/serialize/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\serialize\"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/crypto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\crypto\"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\"/>
+		</Unit>
+		<Unit filename="D:/CLionProject/DDZ-Network/Server-ddz/database/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\database\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libthread.a CMakeFiles/thread.dir/ThreadPool.cpp.obj CMakeFiles/thread.dir/WorkerThread.cpp.obj
+C:\mingw64\bin\ranlib.exe libthread.a

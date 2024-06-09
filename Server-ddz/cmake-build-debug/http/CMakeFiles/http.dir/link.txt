@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libhttp.a CMakeFiles/http.dir/HttpRequest.cpp.obj CMakeFiles/http.dir/HttpResponse.cpp.obj
+C:\mingw64\bin\ranlib.exe libhttp.a

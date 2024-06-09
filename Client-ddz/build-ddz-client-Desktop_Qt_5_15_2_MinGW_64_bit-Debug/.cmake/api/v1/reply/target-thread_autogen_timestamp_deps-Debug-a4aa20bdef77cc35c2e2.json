@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"thread/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "thread_autogen_timestamp_deps::@1994991b6c1bd8685afc",
+	"isGeneratorProvided" : true,
+	"name" : "thread_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "thread",
+		"source" : "thread"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/CLionProject/DDZ-Network/Client-ddz/build-ddz-client-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/thread/CMakeFiles/thread_autogen_timestamp_deps",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "D:/CLionProject/DDZ-Network/Client-ddz/build-ddz-client-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/thread/CMakeFiles/thread_autogen_timestamp_deps.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

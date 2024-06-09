@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc libtcp.a CMakeFiles/tcp.dir/TcpConnection.cpp.obj CMakeFiles/tcp.dir/TcpServer.cpp.obj
+C:\mingw64\bin\ranlib.exe libtcp.a

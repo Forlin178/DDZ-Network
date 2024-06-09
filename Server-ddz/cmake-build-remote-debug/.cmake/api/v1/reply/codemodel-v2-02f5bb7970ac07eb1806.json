@@ -1,0 +1,390 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-Debug-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "common",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "http",
+					"jsonFile" : "directory-http-Debug-33cc5cc33a560f8f299b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "http",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "reactor",
+					"jsonFile" : "directory-reactor-Debug-a039b829aea25f2ed6f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "reactor",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "tcp",
+					"jsonFile" : "directory-tcp-Debug-53f7df7fc7f369c653ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "tcp",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "thread",
+					"jsonFile" : "directory-thread-Debug-3bc77d40aa058aa12604.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "thread",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "serialize",
+					"jsonFile" : "directory-serialize-Debug-fa5c27af5f9cb3db831d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "serialize",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "crypto",
+					"jsonFile" : "directory-crypto-Debug-5278ddec31a5087d127a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "crypto",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "game",
+					"jsonFile" : "directory-game-Debug-293cc40f9d53d7bf6169.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "game",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "database",
+					"jsonFile" : "directory-database-Debug-a822cb5ce6262ba8f82c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "database",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Server_ddz",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "common",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "http",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "reactor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "tcp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "thread",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "serialize",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "mycrypto",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "game",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "database",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Server_ddz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Server_ddz-Debug-46a5086c6980aacf4f46.json",
+					"name" : "Server_ddz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "common::@bfc844598bd03e848b3c",
+					"jsonFile" : "target-common-Debug-a06d4eba5b54f29aec40.json",
+					"name" : "common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "database::@c44ac6e9bb193d64d56d",
+					"jsonFile" : "target-database-Debug-ad2ead4a45ac536933d4.json",
+					"name" : "database",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "game::@0c53ff3c4131f9152fd3",
+					"jsonFile" : "target-game-Debug-77244fab10f781ea496f.json",
+					"name" : "game",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "http::@bd0a5d6c0bd9e6f494f8",
+					"jsonFile" : "target-http-Debug-78a7d3ce61fc0464b413.json",
+					"name" : "http",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "mycrypto::@1d62b725e69adc70ad4a",
+					"jsonFile" : "target-mycrypto-Debug-3db32b09d80285c9ad5c.json",
+					"name" : "mycrypto",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "reactor::@9b10b1f55575ced20a91",
+					"jsonFile" : "target-reactor-Debug-1820fe5a90da2d44796e.json",
+					"name" : "reactor",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "serialize::@f3c3b027229a9a158e24",
+					"jsonFile" : "target-serialize-Debug-21968f5aed8ccb25c50f.json",
+					"name" : "serialize",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "tcp::@8966b6d2f8df3a1515e1",
+					"jsonFile" : "target-tcp-Debug-d92a3ff2c162f281e46b.json",
+					"name" : "tcp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "thread::@1994991b6c1bd8685afc",
+					"jsonFile" : "target-thread-Debug-3ccfd1fa48fd551102ec.json",
+					"name" : "thread",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/forlin/project/ddz-net/cmake-build-remote-debug",
+		"source" : "/home/forlin/project/ddz-net"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
